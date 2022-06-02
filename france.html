@@ -16,8 +16,22 @@ p {
 }
 
 body {
-   width:1400px;
+   width:1300px;
    margin:0 auto;
+}
+
+.img:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.25);
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Safari and Chrome */
+
 }
 
 </style>
@@ -35,18 +49,18 @@ body {
 <table cellspacing="0" cellpadding="0" border="0">
     <tr>
         <td style="text-align: center;">
-            <img src="plots/mh_oran.png" alt="" width="110%" height="110%"/>
+            <img src="plots/mh_oran.png" alt="" width="110%" height="110%" class="img"/>
         </td>
 		<td style="text-align: center;">
-            <img src="plots/anger_oran.png" alt="" width="110%" height="110%"/>
+            <img src="plots/anger_oran.png" alt="" width="110%" height="110%" class="img"/>
         </td>
     </tr>
     <tr>
         <td style="text-align: center;">
-            <img src="plots/anxiety_oran.png" alt="" width="110%" height="110%"/>
+            <img src="plots/anxiety_oran.png" alt="" width="110%" height="110%" class="img"/>
         </td>
 		<td style="text-align: center;">
-            <img src="plots/sadness_oran.png" alt="" width="110%" height="110%"/>
+            <img src="plots/sadness_oran.png" alt="" width="110%" height="110%" class="img"/>
         </td>
     </tr>
 </table>
