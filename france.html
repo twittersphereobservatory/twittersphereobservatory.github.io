@@ -34,104 +34,135 @@ body {
 
 }
 
+tr.spaceUnder>td {
+  padding-bottom: 0.2cm;
+}
+
 </style>
+
+
 </head>
 
 <body>
-<h1 style="font-family:Calibri"><span style="color:blue">F</span>rench <span style="color:blue">T</span>wittersphere <span style="color:blue">OBSERVATORY</span> </h1> 
+	<h1 style="font-family:Calibri"><span style="color:blue">F</span>rench <span style="color:blue">T</span>wittersphere <span style="color:blue">OBSERVATORY</span> </h1> 
+	<center>
+		<a  href="index.html"> Back to main page </a> 
+	</center>
+	
+	<hr>
 
-<p>Intro</p>
+	<div id="highlights">
+		<center>
+		<table>
+			<tbody>
+				<tr class="spaceUnder"><td><li>We report below four indicators of emotional well-being based on the textual content of the tweets of a fixed population (39,970 users) located in France: <i>Anger, Anxiety, Sadness</i> and <i>Mental Health</i>. </li></td></tr>
+				<tr class="spaceUnder"><td><li><i>Anger, Anxiety</i> and <i>Sadness</i> are constructed from the averaged daily frequency (across users) of words in the tweets that can be matched to the lexical field of anger, anxiety and sadness, respectively.</li></td></tr>
+				<tr class="spaceUnder"><td><li><i>Mental Health</i> is constructed from the averaged daily frequency (across users) of all words that are matched to the lexical field of anger, anxiety and sadness in all tweets.  </li></td></tr>
+				<tr class="spaceUnder"><td><li>Increases in these series are associated with a deterioration of the corresponding indicator.</li></td></tr>
+				<tr class="spaceUnder"><td><li>These indicators are updated weekly. Lat update: </li></td></tr>
+				<tr class="spaceUnder"><td><li>Data span from January 1st 2020 to May 31 2022.</li></td></tr>
+			</tbody>
+		</table>
+		</center>
+	</div>
+	
+	<hr>
+	
+	<div id="indicators">
+		<h2> Mental Health Indicators </h2> 
 
-<h2> Mental Health Indicators </h2> 
+		<table cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td style="text-align: center;">
+					<img src="plots/mh_oran.png" alt="" width="110%" height="110%" class="img"/>
+				</td>
+				<td style="text-align: center;">
+					<img src="plots/anger_oran.png" alt="" width="110%" height="110%" class="img"/>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;">
+					<img src="plots/anxiety_oran.png" alt="" width="110%" height="110%" class="img"/>
+				</td>
+				<td style="text-align: center;">
+					<img src="plots/sadness_oran.png" alt="" width="110%" height="110%" class="img"/>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="hashtags">
+		<h2> Top Hashtags from Last Week by Categories </h2> 
+
+		<table cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td style="text-align: center;">
+					<figure>
+						<figcaption>Females</figcaption>
+						<img src="plots/wordcloud_female.png" alt="Trulli" style="width:100%">
+					</figure>
+				</td>
+				<td style="text-align: center;">
+					<figure>
+						<figcaption>Males</figcaption>
+						<img src="plots/wordcloud_male.png" alt="Trulli" style="width:100%">
+					</figure>
+				</td>
+				<td style="text-align: center;">
+					<figure>
+						<figcaption> 18 and younger </figcaption>
+						<img src="plots/wordcloud_0.png" alt="Trulli" style="width:100%">
+					</figure>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;">
+					<figure>
+						<figcaption>19-29</figcaption>
+						<img src="plots/wordcloud_1.png" alt="Trulli" style="width:100%">
+					</figure>
+				</td>
+				<td style="text-align: center;">
+					<figure>
+						<figcaption>30-39</figcaption>
+						<img src="plots/wordcloud_2.png" alt="Trulli" style="width:100%">
+					</figure>
+				</td>
+				<td style="text-align: center;">
+					<figure>
+						<figcaption>40 and older</figcaption>
+						<img src="plots/wordcloud_3.png" alt="Trulli" style="width:100%">
+					</figure>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="information">
+		<h2> Information on Database </h2> 
 
 
-<br />
-<table cellspacing="0" cellpadding="0" border="0">
-    <tr>
-        <td style="text-align: center;">
-            <img src="plots/mh_oran.png" alt="" width="110%" height="110%" class="img"/>
-        </td>
-		<td style="text-align: center;">
-            <img src="plots/anger_oran.png" alt="" width="110%" height="110%" class="img"/>
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">
-            <img src="plots/anxiety_oran.png" alt="" width="110%" height="110%" class="img"/>
-        </td>
-		<td style="text-align: center;">
-            <img src="plots/sadness_oran.png" alt="" width="110%" height="110%" class="img"/>
-        </td>
-    </tr>
-</table>
+		<p>The dataset is composed of the tweets posted by 39,970 users located in France.</p>
 
 
-<h2> Top Hashtags from Last Week by Categories </h2> 
+		<table cellspacing="0" cellpadding="0" border="0">
+			<tr>
+				<td style="text-align: center;">
+					<img src="plots/pie.png" alt="" width="110%" height="110%"/>
+				</td>
+				<td style="text-align: center;">
+					<img src="plots/pie2.png" alt="" width="110%" height="110%"/>
+				</td>
+			</tr>
+		</table>
+	</div>
 
-<table cellspacing="0" cellpadding="0" border="0">
-    <tr>
-        <td style="text-align: center;">
-            <figure>
-				<figcaption>Females</figcaption>
-				<img src="plots/wordcloud_female.png" alt="Trulli" style="width:100%">
-			</figure>
-        </td>
-		<td style="text-align: center;">
-                        <figure>
-				<figcaption>Males</figcaption>
-				<img src="plots/wordcloud_male.png" alt="Trulli" style="width:100%">
-			</figure>
-        </td>
-		<td style="text-align: center;">
-            <figure>
-				<figcaption> 18 and younger </figcaption>
-				<img src="plots/wordcloud_0.png" alt="Trulli" style="width:100%">
-			</figure>
-        </td>
-    </tr>
-	<tr>
-		<td style="text-align: center;">
-            <figure>
-				<figcaption>19-29</figcaption>
-				<img src="plots/wordcloud_1.png" alt="Trulli" style="width:100%">
-			</figure>
-        </td>
-        <td style="text-align: center;">
-            <figure>
-				<figcaption>30-39</figcaption>
-				<img src="plots/wordcloud_2.png" alt="Trulli" style="width:100%">
-			</figure>
-        </td>
-		<td style="text-align: center;">
-            <figure>
-				<figcaption>40 and older</figcaption>
-				<img src="plots/wordcloud_3.png" alt="Trulli" style="width:100%">
-			</figure>
-        </td>
-    </tr>
-</table>
+	<div id="contact">
+		<h2> Bibliography and Contact </h2> 
 
-<h2> Information on Database </h2> 
+		<p>"The Effects of COVID-19 Lockdowns on Mental Health: A Twitter-based Analysis" </p>
 
-
-<table cellspacing="0" cellpadding="0" border="0">
-    <tr>
-        <td style="text-align: center;">
-            <img src="plots/pie.png" alt="" width="110%" height="110%"/>
-        </td>
-		<td style="text-align: center;">
-            <img src="plots/pie2.png" alt="" width="110%" height="110%"/>
-        </td>
-    </tr>
-</table>
-
-
-
-<h2> Bibliography and Contact </h2> 
-
-<p>"The Effects of COVID-19 Lockdowns on Mental Health: A Twitter-based Analysis" </p>
-
-<p>Email: twittersphere.observatory@gmail.com</p>
-
+		<p>Email: twittersphere.observatory@gmail.com</p>
+	</div>
 </body>
 </html>
